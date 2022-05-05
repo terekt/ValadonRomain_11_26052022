@@ -1,0 +1,31 @@
+.header {
+    padding: 0 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    max-height: 160px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li a {
+    margin-left: 57px;
+    color: #FF6060;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
