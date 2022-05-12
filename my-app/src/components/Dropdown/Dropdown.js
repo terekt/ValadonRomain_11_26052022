@@ -1,12 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Dropdown.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Dropdown(props) {
-
-    console.log(typeof props.data);
-
 
     var DropdownList = [];
     var DropdownTitle = props.title;
