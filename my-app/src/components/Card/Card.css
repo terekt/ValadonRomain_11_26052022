@@ -9,6 +9,7 @@
     padding-left: 1em;
     padding-right: 1em;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .card img {
@@ -31,4 +32,8 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 18px;
+}
+
+a {
+    text-decoration: none;
 }

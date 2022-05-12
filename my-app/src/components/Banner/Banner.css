@@ -6,15 +6,17 @@
 }
 
 h1 {
-    color:white;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     size: 48px;
 }
 
+.banner h1 {
+    color:white;
+}
+
 .bannerTitle {
     position: absolute;
-    top: 250px;
+    top: 310px;
     left: 50%;
     transform: translate(-50%, 0);
 }
