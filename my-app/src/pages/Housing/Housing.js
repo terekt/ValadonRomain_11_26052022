@@ -13,24 +13,27 @@ function Housing() {
     console.log(house);
     return (
         <>
-            <Carousel data={house.pictures} />
-            <div className="panel">
-                <div className="panel-left">
-                    <h1>{house.title}</h1>
-                    <div className="location">{house.location}</div>
-                    <Tag data={house.tags} />
-                </div>
-                <div className="panel-right">
-                    <div className="user">
-                        <div className="user-name">{house.host.name}</div>
-                        <img className="imgProfile" src={house.host.picture} alt={house.host.name} />
+            <div className="housing">
+                <Carousel data={house.pictures} />
+                <div className="panel">
+                    <div className="panel-left">
+                        <h1>{house.title}</h1>
+                        <div className="location">{house.location}</div>
+                        <Tag data={house.tags} />
                     </div>
-                    <Rating data={house.rating} />
+                    <div className="panel-right">
+                        <div className="user">
+                            <div className="user-name">{house.host.name}</div>
+                            <img className="imgProfile" src={house.host.picture} alt={house.host.name} />
+                        </div>
+                        <Rating data={house.rating} />
+                    </div>
                 </div>
-            </div>
-            <div className="dropdowns">
-                <Dropdown data={house.description} title="Description"/>
-                <Dropdown data={house.equipments} title="Équipement"/>
+                <div className="dropdowns">
+                    <Dropdown data={house.description} title="Description" />
+                    <span></span>
+                    <Dropdown data={house.equipments} title="Équipement" />
+                </div>
             </div>
         </>
     );

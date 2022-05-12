@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
 }
 
-.header img {
+header img {
     max-height: 160px;
 }
 .menu {

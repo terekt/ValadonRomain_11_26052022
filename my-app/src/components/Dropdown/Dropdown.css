@@ -1,6 +1,25 @@
+.dropdowns {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    width: 100%;
+}
+
 .collapse-button {
     display: block;
     width: 100%;
+}
+
+.collapse-content {
+    background-color: #F7F7F7;
+    padding: 30px 0 10px 10px;
+    position: relative;
+    top: -25px;
+    z-index: 1;
+    border-radius: 10px;
 }
 
 .collapse-content.collapsed {
@@ -11,7 +30,7 @@
     display: block;
 }
 
-button {
+.dropdown button {
     background: none;
     color: inherit;
     border: none;
@@ -19,9 +38,22 @@ button {
     font: inherit;
     cursor: pointer;
     outline: inherit;
+
+    background-color: #FF6060;
+    border-radius: 8px;
+    color: white;
+    height: 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    position: relative;
+    z-index: 2;
 }
 
 .arrows {
+    font-size: 26px;
     transition: all .1s linear;
 }
 

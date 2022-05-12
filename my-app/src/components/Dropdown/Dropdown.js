@@ -26,18 +26,20 @@ function Dropdown(props) {
         const [isCollapsed, setIsCollapsed] = React.useState(expanded);
         return (
             <>
-                <button
-                    className="collapse-button"
-                    onClick={() => setIsCollapsed(!isCollapsed)}
-                >
-                    {DropdownTitle}
-                    <FontAwesomeIcon icon={faAngleDown} className={`arrows ${isCollapsed ? 'arrowExpanded' : 'arrowCollapsed'}`} />
-                </button>
-                <div
-                    className={`collapse-content ${isCollapsed ? 'expanded' : 'collapsed'}`}
-                    aria-expanded={isCollapsed}
-                >
-                    {DropdownList}
+                <div className="dropdown">
+                    <button
+                        className="collapse-button"
+                        onClick={() => setIsCollapsed(!isCollapsed)}
+                    >
+                        {DropdownTitle}
+                        <FontAwesomeIcon icon={faAngleDown} className={`arrows ${isCollapsed ? 'arrowExpanded' : 'arrowCollapsed'}`} />
+                    </button>
+                    <div
+                        className={`collapse-content ${isCollapsed ? 'expanded' : 'collapsed'}`}
+                        aria-expanded={isCollapsed}
+                    >
+                        {DropdownList}
+                    </div>
                 </div>
             </>
         )

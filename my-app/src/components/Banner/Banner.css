@@ -5,18 +5,13 @@
     border-radius: 25px;
 }
 
-h1 {
-    font-weight: 500;
-    size: 48px;
-}
-
 .banner h1 {
     color:white;
 }
 
 .bannerTitle {
     position: absolute;
-    top: 310px;
+    top: 256px;
     left: 50%;
     transform: translate(-50%, 0);
 }

@@ -8,10 +8,10 @@ function Rating(props) {
     var stars = [];
     for (let i = 1; i < 6; i++){
         if(i <= props.data){
-            stars.push(<FontAwesomeIcon key={i} icon={faStar} />);
+            stars.push(<FontAwesomeIcon key={i} icon={faStar} className="starColored" />);
         }
         else{
-            stars.push(<FontAwesomeIcon key={i} icon={faStarRegular} />);
+            stars.push(<FontAwesomeIcon key={i} icon={faStar} className="star" />);
         }
     }
 
