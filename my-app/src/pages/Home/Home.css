@@ -1,3 +1,9 @@
 .Home {
     padding: 0 8vw;
 }
+
+@media screen and (max-width: 805px) {
+    .Home {
+        padding: 0 4vw;
+    }
+}

@@ -15,3 +15,22 @@
     left: 50%;
     transform: translate(-50%, 0);
 }
+
+@media screen and (max-width: 805px) {
+    .bannerTitle {
+        position: re;
+        top: 109px;
+        left: 10%;
+        transform: none;
+    }
+
+    .banner h1 {
+        font-size: 18px;
+    }
+
+    .Home .banner img {
+        object-fit: none;
+        max-height: 120px;
+        border-radius: 10px;
+    }
+}
