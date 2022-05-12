@@ -19,6 +19,7 @@ root.render(
                     <Route path="/about" element={<About />} />
                     <Route path="/location/:housingId" element={<Housing />} />
                     <Route path="*" element={<Page404 />} />
+                    <Route path="/ValadonRomain_11_26052022/" element={<Home />} />
                 </Routes>
             <Footer />
         </Router>
