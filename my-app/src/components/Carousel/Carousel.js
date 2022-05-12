@@ -20,7 +20,7 @@ function Carousel(props) {
     }
 
     return(
-        <div className="carousel">
+        <div className="carousel-container">
             <img className="carousel" src={props.data[imageCurrent-1]} alt={`number ${imageCurrent}`} />
             <FontAwesomeIcon className={`carousel-icon carousel-icon-previous ${props.data.length === 1 && "hide"}`} onClick={() => pictureState(imageCurrent-1)} icon={faAngleDown} />
             <FontAwesomeIcon className={`carousel-icon carousel-icon-next ${props.data.length === 1 && "hide"}`} onClick={() => pictureState(imageCurrent+1)} icon={faAngleDown} />

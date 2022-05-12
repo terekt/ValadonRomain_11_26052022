@@ -16,12 +16,16 @@
     transform: translate(-50%, 0);
 }
 
-@media screen and (max-width: 805px) {
+@media screen and (max-width: 480px) {
     .bannerTitle {
         position: re;
-        top: 109px;
+        top: 130px;
         left: 10%;
         transform: none;
+    }
+
+    .banner img {
+        border-radius: 10px;
     }
 
     .banner h1 {
@@ -31,6 +35,5 @@
     .Home .banner img {
         object-fit: none;
         max-height: 120px;
-        border-radius: 10px;
     }
 }

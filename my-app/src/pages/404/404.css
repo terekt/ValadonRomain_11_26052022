@@ -22,3 +22,22 @@
     margin-top: 120px;
     margin-bottom: 150px;
 }
+
+
+@media screen and (max-width: 480px) {
+    
+    .bigText {
+        font-size: 80px;
+        margin-top: 180px;
+    }
+    
+    .subText {
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .page404 a  {
+        margin-bottom: 190px;
+    }
+}

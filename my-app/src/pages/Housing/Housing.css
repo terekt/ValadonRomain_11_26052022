@@ -47,3 +47,30 @@
 .dropdowns span {
     width: 80px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .housing {
+        padding: 0 4vw;
+    }
+    .panel {
+        flex-direction: column;
+    }
+    .tags {
+        flex-wrap: wrap;
+    }
+    .tag {
+        margin-bottom: 10px;
+    }
+    .panel-right {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel-right .rating {
+        margin-top: 0;
+    }
+    .dropdowns {
+        flex-direction: column;
+    }
+}

@@ -37,7 +37,7 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 805px) {
+@media screen and (max-width: 480px) {
     .card-container {
         margin-top: 0;
         background: none;
