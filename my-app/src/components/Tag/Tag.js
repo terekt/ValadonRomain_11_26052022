@@ -8,8 +8,9 @@ function Tag(props) {
 
     return (
         <>
-            {tags}
-
+            <div className="tags">
+                {tags}
+            </div>
         </>
     )
 }

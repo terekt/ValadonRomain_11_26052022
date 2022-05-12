@@ -29,8 +29,8 @@ function Housing() {
                 </div>
             </div>
             <div className="dropdowns">
-                <Dropdown data={house.description} />
-                <Dropdown data={house.equipments} />
+                <Dropdown data={house.description} title="Description"/>
+                <Dropdown data={house.equipments} title="Équipement"/>
             </div>
         </>
     );
