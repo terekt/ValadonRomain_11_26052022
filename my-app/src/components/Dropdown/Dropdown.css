@@ -6,6 +6,7 @@
 
 .dropdown {
     width: 100%;
+    margin-top: 20px;
 }
 
 .collapse-button {
@@ -15,11 +16,12 @@
 
 .collapse-content {
     background-color: #F7F7F7;
-    padding: 30px 0 10px 10px;
+    padding: 37px 0 10px 10px;
     position: relative;
     top: -25px;
     z-index: 1;
     border-radius: 10px;
+    font-size: 18px;
 }
 
 .collapse-content.collapsed {
@@ -50,6 +52,9 @@
     padding: 0 10px 0 10px;
     position: relative;
     z-index: 2;
+
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .arrows {
